@@ -68,7 +68,7 @@ const FeeList = () => {
                  <span className="text-xs text-gray-400">Due: {fee.dueDate}</span>
                </div>
                <h3 className="text-lg font-bold text-gray-900">{fee.term}</h3>
-               <p className="text-2xl font-bold text-gray-900 mt-1">₦{fee.amount.toLocaleString()}</p>
+               <p className="text-2xl font-bold text-gray-900 mt-1">SLE{fee.amount.toLocaleString()}</p>
             </div>
 
             <div className="flex items-center gap-3">

@@ -41,7 +41,7 @@ const Home = () => {
           <div className="relative z-10">
             <p className="text-primary-100 font-medium mb-1">Outstanding Balance</p>
             <h2 className="text-4xl font-bold mb-4">
-              ₦{outstandingFee ? outstandingFee.amount.toLocaleString() : '0.00'}
+              SLE{outstandingFee ? outstandingFee.amount.toLocaleString() : '0.00'}
             </h2>
             
             {outstandingFee ? (
