@@ -6,6 +6,10 @@ import AppShell from './components/layout/AppShell';
 import FeeList from './pages/fees/FeeList';
 import AnnouncementFeed from './pages/announcements/AnnouncementFeed';
 import Support from './pages/support/Support';
+import CommunityFeed from './pages/community/CommunityFeed';
+import LiveRoom from './pages/meetings/LiveRoom';
+import RecordingLibrary from './pages/meetings/RecordingLibrary';
+import Profile from './pages/auth/Profile';
 
 // Admin Components
 import AdminLayout from './components/layout/AdminLayout';
@@ -27,6 +31,10 @@ function App() {
           <Route path="/fees" element={<FeeList />} />
           <Route path="/announcements" element={<AnnouncementFeed />} />
           <Route path="/support" element={<Support />} />
+          <Route path="/community" element={<CommunityFeed />} />
+          <Route path="/meetings" element={<LiveRoom />} />
+          <Route path="/library" element={<RecordingLibrary />} />
+          <Route path="/profile" element={<Profile />} />
         </Route>
 
         {/* Admin Portal Routes */}

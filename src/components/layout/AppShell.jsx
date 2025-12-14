@@ -1,6 +1,7 @@
+```javascript
 import React from 'react';
 import { Outlet, NavLink, useLocation } from 'react-router-dom';
-import { LayoutDashboard, CreditCard, Bell, MessageCircle, LogOut, Menu } from 'lucide-react';
+import { LayoutDashboard, CreditCard, Bell, MessageCircle, LogOut, Menu, Users, Video, UserCircle } from 'lucide-react';
 import { cn } from '../../lib/utils';
 import Header from './Header';
 
@@ -9,9 +10,12 @@ const AppShell = () => {
 
   const navItems = [
     { icon: LayoutDashboard, label: 'Home', path: '/dashboard' },
-    { icon: CreditCard, label: 'Fees', path: '/fees' },
+    { icon: Wallet, label: 'Fees', path: '/fees' },
     { icon: Bell, label: 'News', path: '/announcements' },
-    { icon: MessageCircle, label: 'Support', path: '/support' },
+    { icon: Users, label: 'Community', path: '/community' },
+    { icon: Video, label: 'Live Meet', path: '/meetings' },
+    { icon: HandHelping, label: 'Support', path: '/support' },
+    { icon: UserCircle, label: 'Profile', path: '/profile' },
   ];
 
   return (
