@@ -1,7 +1,7 @@
-```javascript
+
 import React from 'react';
 import { Outlet, NavLink, useLocation } from 'react-router-dom';
-import { LayoutDashboard, CreditCard, Bell, MessageCircle, LogOut, Menu, Users, Video, UserCircle } from 'lucide-react';
+import { LayoutDashboard, Wallet, Bell, HandHelping, LogOut, Menu, Users, Video, UserCircle } from 'lucide-react';
 import { cn } from '../../lib/utils';
 import Header from './Header';
 

@@ -1,4 +1,4 @@
-```javascript
+
 // Initial Data
 const initialFees = [
     { id: 1, term: '1st Term School Fees', amount: 5000, status: 'paid', dueDate: 'Sept 15, 2025' },
@@ -118,4 +118,4 @@ export const currentUser = {
   grade: "Grade 4",
   avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d"
 };
-```
+
